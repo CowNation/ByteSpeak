@@ -6,3 +6,8 @@ ld -m elf_i386 -s -o build output.o
 
 echo "Build complete, running.."
 ./build
+
+echo "Program has been ran, cleaning up files.."
+rm output.asm
+rm output.o
+rm build
