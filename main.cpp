@@ -163,5 +163,5 @@ void executeFile(std::string fileName) {
 }
 
 int main() {
-	executeFile("test.ps");
+	executeFile("test.bs");
 }
